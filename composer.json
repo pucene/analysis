@@ -7,13 +7,13 @@
             "Pucene\\Analysis\\": ""
         },
         "exclude-from-classmap": [
-            "Testing/",
+            "Tests/",
             "examples/"
         ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Pucene\\Analysis\\Testing\\": "Testing/"
+            "Pucene\\Analysis\\Tests\\": "Tests/"
         }
     },
     "authors": [
@@ -31,7 +31,7 @@
         "symfony/console": "^6.2"
     },
     "scripts": {
-        "test": "@phpunit Testing",
+        "test": "@phpunit Tests",
         "phpunit": "vendor/bin/phpunit"
     }
 }
